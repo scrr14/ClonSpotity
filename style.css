@@ -17,9 +17,9 @@ body {
 }
 
 .menu-contenido {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    grid-template-rows: min-content 1fr min-content;
+    /* display: grid; */
+    /* grid-template-columns: 300px 1fr; */
+    /* grid-template-rows: min-content 1fr min-content; */
     margin-bottom: 8rem;
 }
 
@@ -250,6 +250,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    margin-left: 300px;
 }
 
 .menu-contenido-playlists hr {
@@ -282,6 +283,7 @@ body {
     display: grid;
     grid-template-columns: repeat(8, 200px);
     grid-gap: 20px;
+    overflow: hidden;
     
 }
 
